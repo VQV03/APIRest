@@ -2,8 +2,4 @@
 
 const port = 3002;
 
-_app2.default.listen(port, () => {
-  console.log();
-  console.log(`Escutando na porta ${port}`);
-  console.log(`CTRL + CLICK em http://localhost:${port}`);
-});
+_app2.default.listen(port);
